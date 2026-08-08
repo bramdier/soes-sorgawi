@@ -1,0 +1,6 @@
+{
+  "name": "Soes Sorgawi",
+  "description": "Artisanal Pâtisserie - Halal Certified fresh cream puffs crafted with pure heavenly deliciousness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
