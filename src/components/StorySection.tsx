@@ -39,7 +39,7 @@ export const StorySection: React.FC = () => {
           <p className="text-xs text-[#3f484c]">Handcrafted choux pastry with golden crisp crusts.</p>
         </div>
         <div className="flex flex-col items-center gap-2 p-3 rounded-2xl bg-[#fbf9f5]">
-          <ShieldCheck className="w-6 h-6 text-[#735c00]" />
+          <img src="/img/halal_1.png" alt="Halal Indonesia" className="h-12 w-auto object-contain" />
           <h4 className="font-playfair font-semibold text-[#1b1c1a] text-sm">100% Halal Verified</h4>
           <p className="text-xs text-[#3f484c]">Certified clean, ethically sourced ingredients.</p>
         </div>
