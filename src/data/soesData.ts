@@ -4,6 +4,18 @@ export const LOGO_IMAGE = 'https://lh3.googleusercontent.com/aida-public/AB6AXuC
 
 export const HERO_IMAGE = '/img/header_08_08.png';
 
+export const CAROUSEL_IMAGES = [
+  { src: '/img/carousel/cr_1.webp', alt: 'Soes Surgawi artisanal soes assortment' },
+  { src: '/img/carousel/cr_2.webp', alt: 'Freshly baked Soes Surgawi pastries' },
+  { src: '/img/carousel/cr_3.webp', alt: 'Soes Surgawi cream-filled choux' },
+  { src: '/img/carousel/cr_4.webp', alt: 'Soes Surgawi signature flavors' },
+  { src: '/img/carousel/cr_5.webp', alt: 'Handcrafted Soes Surgawi desserts' },
+  { src: '/img/carousel/cr_6.webp', alt: 'Soes Surgawi gift-ready boxes' },
+  { src: '/img/carousel/cr_7.webp', alt: 'Golden crisp Soes Surgawi shells' },
+  { src: '/img/carousel/cr_8.webp', alt: 'Soes Surgawi premium pastry display' },
+  { src: '/img/carousel/cr_9.webp', alt: 'Soes Surgawi traditional delicacy' },
+] as const;
+
 export const MENU_CATEGORIES: MenuCategory[] = [
   {
     id: 'soes-reguler',

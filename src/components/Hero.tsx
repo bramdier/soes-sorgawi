@@ -1,15 +1,20 @@
 import React from 'react';
 import { HERO_IMAGE } from '../data/soesData';
+import { ImageCarousel } from './ImageCarousel';
 
 export const Hero: React.FC = () => {
   return (
     <section className="w-full flex flex-col">
-      {/* Full-viewport hero image */}
-      <div className="relative w-full min-h-screen overflow-hidden">
+      {/* Responsive hero banner — full image visible at all widths */}
+      <div className="w-full bg-[#e8d8dc]">
         <img
           src={HERO_IMAGE}
           alt="Soes Surgawi birthday promo — free vanilla soes box on your special day"
-          className="absolute inset-0 w-full h-full object-cover object-center"
+          className="block w-full h-auto max-w-full"
+          width={1376}
+          height={768}
+          loading="eager"
+          fetchPriority="high"
         />
       </div>
 
@@ -22,6 +27,8 @@ export const Hero: React.FC = () => {
           Traditional delicacy amped up for pure deliciousness. Baked fresh with artisanal craftsmanship.
         </p>
       </div>
+
+      <ImageCarousel />
     </section>
   );
 };
